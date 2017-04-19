@@ -6,8 +6,8 @@
 }
 
 .yellow {
-  background-color: #FFE361;
-  color: #FFFFFF;
+  background-color: #f1f76a;
+  color: #2b2b2b;
 }
 
 .blue {
@@ -16,7 +16,7 @@
 }
 
 .red {
-  background-color: #ed1c24;
+  background-color: #ef676c;
   color: #FFFFFF;
 }
 
@@ -26,5 +26,13 @@
 }
 
 .yellow, .blue, .red, .grey {
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#javascript, #operators, #variables, #variable-naming, #functions, #methods, #arguments, #parameters, #return-statement, #strings, #booleans, #undefined {
   display: none;
 }
