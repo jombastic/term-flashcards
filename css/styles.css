@@ -1,0 +1,30 @@
+.images {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  max-height: auto;
+}
+
+.yellow {
+  background-color: #FFE361;
+  color: #FFFFFF;
+}
+
+.blue {
+  background-color: #8ebce5;
+  color: #FFFFFF;
+}
+
+.red {
+  background-color: #ed1c24;
+  color: #FFFFFF;
+}
+
+.grey {
+  background-color: #dbd8ce;
+  color: #ac2832;
+}
+
+.yellow, .blue, .red, .grey {
+  display: none;
+}
