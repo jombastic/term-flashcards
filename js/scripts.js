@@ -82,4 +82,46 @@ $(document).ready(function() {
     $("#twelfth img, #twelfth .panel-footer").toggleClass("hidden");
     $("#undefined").toggle();
   });
+
+  $("#thirteenth").click(function() {
+    $("#thirteenth").removeClass("red, hidden");
+    $("#not-a-number").addClass("red");
+    $("#thirteenth img, #thirteenth .panel-footer").toggleClass("hidden");
+    $("#not-a-number").toggle();
+  });
+
+  $("#fourteenth").click(function() {
+    $("#fourteenth").removeClass("red, hidden");
+    $("#escape").addClass("red");
+    $("#fourteenth img, #fourteenth .panel-footer").toggleClass("hidden");
+    $("#escape").toggle();
+  });
+
+  $("#fifteenth").click(function() {
+    $("#fifteenth").removeClass("grey, hidden");
+    $("#alerts").addClass("grey");
+    $("#fifteenth img, #fifteenth .panel-footer").toggleClass("hidden");
+    $("#alerts").toggle();
+  });
+
+  $("#sixteenth").click(function() {
+    $("#sixteenth").removeClass("yellow, hidden");
+    $("#comments").addClass("yellow");
+    $("#sixteenth img, #sixteenth .panel-footer").toggleClass("hidden");
+    $("#comments").toggle();
+  });
+
+  $("#seventeenth").click(function() {
+    $("#seventeenth").removeClass("blue, hidden");
+    $("#jQuery").addClass("blue");
+    $("#seventeenth img, #seventeenth .panel-footer").toggleClass("hidden");
+    $("#jQuery").toggle();
+  });
+
+  $("#eighteenth").click(function() {
+    $("#eighteenth").removeClass("blue, hidden");
+    $("#atributes").addClass("blue");
+    $("#eighteenth img, #eighteenth .panel-footer").toggleClass("hidden");
+    $("#atributes").toggle();
+  });
 });

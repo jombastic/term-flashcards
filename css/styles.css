@@ -29,10 +29,14 @@
   padding: 5px;
 }
 
+.panel:hover {
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
 }
 
-#javascript, #operators, #variables, #variable-naming, #functions, #methods, #arguments, #parameters, #return-statement, #strings, #booleans, #undefined {
+#javascript, #operators, #variables, #variable-naming, #functions, #methods, #arguments, #parameters, #return-statement, #strings, #booleans, #undefined, #not-a-number, #escape, #alerts, #comments, #jQuery, #atributes {
   display: none;
 }
