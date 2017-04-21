@@ -1,42 +1,11 @@
-.images {
-  width: 100%;
-  max-width: 200px;
-  height: 200px;
-  max-height: auto;
+.initialy-hidden {
+  display: none;
 }
 
-.yellow {
-  background-color: #f1f76a;
-  color: #2b2b2b;
-}
-
-.blue {
-  background-color: #8ebce5;
-  color: #FFFFFF;
-}
-
-.red {
-  background-color: #ef676c;
-  color: #FFFFFF;
-}
-
-.grey {
-  background-color: #dbd8ce;
-  color: #ac2832;
-}
-
-.yellow, .blue, .red, .grey {
-  padding: 5px;
+.img-responsive {
+  height: 150px;
 }
 
 .panel:hover {
-  cursor: pointer;
-}
-
-.hidden {
-  display: none;
-}
-
-#javascript, #operators, #variables, #variable-naming, #functions, #methods, #arguments, #parameters, #return-statement, #strings, #booleans, #undefined, #not-a-number, #escape, #alerts, #comments, #jQuery, #atributes {
-  display: none;
+  cursor:pointer;
 }
